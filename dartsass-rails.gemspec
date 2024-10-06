@@ -1,12 +1,12 @@
 require_relative "lib/dartsass/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "dartsass-rails"
+  spec.name        = "dartsass-poll-rails"
   spec.version     = Dartsass::VERSION
   spec.authors     = [ "David Heinemeier Hansson" ]
   spec.email       = "david@hey.com"
   spec.homepage    = "https://github.com/rails/dartsass-rails"
-  spec.summary     = "Integrate Dart Sass with the asset pipeline in Rails."
+  spec.summary     = "Integrate Dart Sass with the asset pipeline in Rails with --poll"
   spec.license     = "MIT"
 
   spec.metadata = {
