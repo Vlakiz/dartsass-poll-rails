@@ -10,6 +10,10 @@ namespace :dartsass do
   task watch: :environment do
     system(*Dartsass::Runner.dartsass_compile_command, "--watch", exception: true)
   end
+
+  task watchpoll: :environment do
+    system(*Dartsass::Runner.dartsass_compile_command, "--watch", "--poll", exception: true)
+  end
 end
 
 unless ENV["SKIP_CSS_BUILD"]
